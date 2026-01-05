@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M S Sibiram | Full Stack Developer Portfolio</title>
+
+    <!-- SEO -->
+    <meta name="description" content="M S Sibiram | Full Stack Developer | Java | Machine Learning Portfolio">
+    <meta name="keywords" content="Full Stack Developer, Java Developer, Machine Learning, Portfolio">
+    <meta name="author" content="M S Sibiram">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #0a192f;
+            color: #ccd6f6;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 60px 80px;
+        }
+
+        section > h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #64ffda;
+        }
+
+        section > h2::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #64ffda;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        .content-center {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        /* NAVBAR */
+        .home-nav {
+            margin-bottom: 40px;
+        }
+
+        .nav-container {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-menu a {
+            color: #ccd6f6;
+            text-decoration: none;
+        }
+
+        .nav-menu a:hover {
+            color: #64ffda;
+        }
+
+        /* HOME */
+        .home-container {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .home-text {
+            flex: 1;
+            text-align: center;
+        }
+
+        .home-text h1 span {
+            color: #64ffda;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 24px;
+            border-radius: 25px;
+            border: 2px solid #64ffda;
+            color: #64ffda;
+            font-weight: bold;
+            margin-top: 15px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #64ffda;
+            color: #0a192f;
+        }
+
+        .profile-pic {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 5px solid #64ffda;
+        }
+
+        /* SKILLS */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .skill-card {
+            width: 120px;
+            background: #112240;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .skill-card img {
+            width: 55px;
+            margin-bottom: 10px;
+        }
+
+        /* PROJECTS & CERTIFICATES */
+        .project,
+        .certificate-card {
+            max-width: 900px;
+            margin: 25px auto;
+            background: #112240;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020c1b;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 50px 25px;
+            }
+
+            .home-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HOME -->
+<section class="home">
+    <nav class="home-nav">
+        <div class="nav-container">
+            <h2>Portfolio</h2>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="resume/M.S.SIBIRAM (2).pdf" target="_blank">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="home-container">
+        <div class="home-text">
+            <h1>Hi, I'm <span>M.S. Sibiram</span></h1>
+            <h3>B.Tech IT Student | Full Stack Developer</h3>
+            <p>
+                Strong foundation in Java, Web Development and Machine Learning.
+            </p>
+            <a href="resume/M.S.SIBIRAM (2).pdf" target="_blank" class="btn">
+                View Resume
+            </a>
+        </div>
+
+        <img src="images/profile.jpg" alt="M S Sibiram" class="profile-pic">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <div class="content-center">
+        <p>
+            I am a B.Tech Information Technology student with strong problem-solving skills
+            and hands-on experience in Java, Web Development and Machine Learning.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><p>HTML</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><p>CSS</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><p>JavaScript</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><p>Java</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><p>Python</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"><p>Node.js</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"><p>MongoDB</p></div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Cloth Price Prediction</h3>
+        <p><b>Tech:</b> Python, Random Forest</p>
+    </div>
+
+    <div class="project">
+        <h3>Scalable Auction Platform (IEEE)</h3>
+        <p><b>Tech:</b> MERN Stack</p>
+    </div>
+
+    <div class="project">
+        <h3>Resident Tracking System</h3>
+        <p><b>Tech:</b> Face Detection</p>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <h2>Certifications</h2>
+
+    <div class="certificate-card">
+        <h3>IEEE Conference Paper</h3>
+        <a href="certificates/ieee.pdf" target="_blank" class="btn">View Certificate</a>
+    </div>
+
+    <div class="certificate-card">
+        <h3>Web Development Internship</h3>
+        <a href="certificates/Intern.pdf" target="_blank" class="btn">View Certificate</a>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="content-center">
+        <p>Email: <a href="mailto:sibiram1404@gmail.com">sibiram1404@gmail.com</a></p>
+        <p>Phone: 6381128073</p>
+        <p>
+            <a href="https://www.linkedin.com/in/m-s-sibiram-299495329" target="_blank">
+                LinkedIn
+            </a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    M.S. Sibiram Portfolio
+</footer>
+
+</body>
+</html>

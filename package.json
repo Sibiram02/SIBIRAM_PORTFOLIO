@@ -1,0 +1,22 @@
+{
+  "name": "sibiram-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website of M S Sibiram",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server"
+  },
+  "keywords": [
+    "portfolio",
+    "full-stack",
+    "developer",
+    "mern",
+    "java"
+  ],
+  "author": "M S Sibiram",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
